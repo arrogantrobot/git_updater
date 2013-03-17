@@ -11,3 +11,4 @@ if __name__ == "__main__":
     g = git()
     g.pull("/home/rob/git/python_git_updater", "origin", "master")
     print "This just updated itself."
+    print "And it worked!"
