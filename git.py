@@ -9,3 +9,4 @@ class git(object):
 if __name__ == "__main__":
     g = git()
     g.pull("/home/rob/git/test", "origin", "master")
+    print "This just updated itself."
